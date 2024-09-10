@@ -22,3 +22,22 @@ function mouseOver() {
 function mouseOut() {
     this.classList.remove("hover");
 }
+
+function CheckPage(){
+    const currentPath = window.location.pathname;
+    const lastPart = currentPath.substring(currentPath.lastIndexOf('/')+1);
+    console.log(lastPart)
+    if(lastPart == "home.html"){
+        nav1.classList.add("selected");
+    }
+
+    if(lastPart == "receita.html"){
+        nav2.classList.add("selected");
+    }
+
+    if(lastPart == "formulario.html"){
+        nav3.classList.add("selected");
+    }
+}
+
+CheckPage();
