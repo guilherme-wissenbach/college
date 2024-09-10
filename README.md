@@ -1,1 +1,1 @@
-# this is my project
+# Repositório destinado aos projetos da faculdade.
