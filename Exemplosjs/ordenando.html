@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordenação de Valores</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="ordenando.js"></script>
+</head>
+
+<body>
+    <div class="form-control">
+        <span>Valor</span>
+        <br>
+        <input type="number" id="valor" placeholder="Digite um valor" class="form-control">
+        <br>
+
+        <button onclick="add()" class="btn btn-primary">Adicionar</button>
+        <hr>
+    
+        <select id="algoritmo" class="form-select">
+            <option value="bubble" selected>Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="quick">Quick Sort</option>
+        </select>
+        <br>
+    
+        <button onclick="ordenar()" class="btn btn-primary">Ordenar</button>
+        <button onclick="misturar()" class="btn btn-primary">Misturar</button>
+        <button onclick="trocar()" class="btn btn-primary">Trocar primeiro e último</button>
+        <hr>
+        
+        <ul id="valores"></ul>
+    </div>
+    
+    <script>
+
+        function add() {
+            var campoValor = document.getElementById('valor');
+            var valor = campoValor.value;
+            var lista = document.getElementById('valores');
+            var node = document.createElement('li');
+            var textNode = document.createTextNode(valor);
+
+            node.appendChild(textNode);
+            lista.appendChild(node);
+        }
+
+        function ordenar() {
+            var lista = document.getElementById('valores');
+            var algoritmo = document.getElementById('algoritmo');
+            var valores = Array.from(lista.children).map(item => parseInt(item.innerHTML));
+
+            switch (algoritmo.selectedIndex) {
+                case 0:
+                    bubbleSort(valores);
+                    break;
+                case 1:
+                    selectionSort(valores);
+                    break;
+                case 2:
+                    quickSort(valores, 0, valores.length - 1);
+                    break;
+                default:
+                    break;
+            }
+
+            lista.innerHTML = valores.map(valor => `<li>${valor}</li>`).reduce((html, li) => html + li, '');
+        }
+
+        function misturar() {
+            var lista = document.getElementById('valores');
+            var valores = Array.from(lista.children).map(item => parseInt(item.innerHTML));
+
+            shuffle(valores);
+            lista.innerHTML = valores.map(valor => `<li>${valor}</li>`).reduce((html, li) => html + li, '');
+        }
+
+        function trocar() {
+            var lista = document.getElementById('valores');
+            var valores = Array.from(lista.children).map(item => parseInt(item.innerHTML));
+            swap(valores); 
+            lista.innerHTML = valores.map(valor => `<li>${valor}</li>`).reduce((html, li) => html + li, ''); 
+        }
+
+    </script>
+</body>
+
+</html>
