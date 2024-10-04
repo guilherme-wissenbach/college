@@ -1,16 +1,16 @@
 # Projetos da Faculdade
 
-Este repositório é destinado aos projetos desenvolvidos durante o curso da faculdade. Contém diferentes níveis de projetos que abordam diversas disciplinas e tópicos.
+Este repositório é destinado aos projetos desenvolvidos durante a faculdade. Contém diferentes níveis de projetos que abordam diversas disciplinas e tópicos.
 
 ## Índice
 
-- [Level 1](#level-1)
-- [Level 2](#level-2)
+- [Nível 1](#level-1)
+- [Nível 2](#level-2)
 
-## Level 1
+## Nível 1
 
-Acesse os projetos do **Level 1** na pasta [Receitas](./Receitas), onde estão os primeiros projetos focados em conceitos básicos.
+Acesse o projeto do **Nível 1** na pasta [Receitas](./Receitas).
 
-## Level 2
+## Nível 2
 
-Acesse os projetos do **Level 2** na pasta [Exemplojs](./Exemplojs), onde estão exemplos em JavaScript abordando conceitos mais avançados.
+Acesse os projetos do **Nível 2** na pasta [Exemplojs](./Exemplojs).
