@@ -4,8 +4,8 @@ Este repositório é destinado aos projetos desenvolvidos durante a faculdade. C
 
 ## Índice
 
-- [Nível 1](#level-1)
-- [Nível 2](#level-2)
+- [Nível 1](#./Receitas)
+- [Nível 2](#./Exemplojs)
 
 ## Nível 1
 
