@@ -41,3 +41,34 @@ code {
   color: white;
   padding: 2px 10px;
 }
+
+.nav-link{
+  color:white;
+}
+
+.novo-body{
+  margin: 1rem 5rem;
+}
+
+.form-body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  justify-items: start;
+}
+
+.form-body div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-body div *{
+  width: 100%;
+}
+
+
+
