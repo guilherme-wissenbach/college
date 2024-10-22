@@ -12,4 +12,4 @@ Acesse os projetos do **Nível 2** na pasta [Exemplojs](./Exemplojs).
 
 ## Nível 3
 
-Acesse os projetos do **Nível 2** na pasta [Nivel3/livros-react](./Nivel3/livros-react).
+Acesse os projetos do **Nível 3** na pasta [Nivel3/livros-react](./Nivel3/livros-react).
