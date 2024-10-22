@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main{
+  margin: 1rem 5rem;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -34,20 +38,8 @@ code {
   background-color: transparent;
 }
 
-.btn-delete{
-  background-color: #D6323B;
-  border-radius: 5px;
-  border-color: transparent;
-  color: white;
-  padding: 2px 10px;
-}
-
 .nav-link{
   color:white;
-}
-
-.novo-body{
-  margin: 1rem 5rem;
 }
 
 .form-body{

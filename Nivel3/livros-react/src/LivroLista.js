@@ -15,7 +15,7 @@ const LinhaLivro = (props) => {
       <td>
         {livro.titulo}
         <br></br>
-        <button onClick={() => excluir(livro.codigo)} className='btn-delete'>Excluir</button>
+        <button onClick={() => excluir(livro.codigo)} className='btn btn-danger'>Excluir</button>
       </td>
       <td>{livro.resumo}</td>
       <td>{nomeEditora}</td>

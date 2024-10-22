@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { ControleLivro } from '../src/controle/ControleLivros';
+import { ControleEditora } from '../src/controle/ControleEditora';
+
+const controleLivro = new ControleLivro();
+const controleEditora = new ControleEditora();
 
 // const LivroDados = () => {
 //   return (
@@ -8,22 +13,6 @@ import { useNavigate } from 'react-router-dom';
 //     </main>
 //   );
 // };
-
-const controleLivro = {
-  incluir: (livro) => {
-    console.log("Livro incluído:", livro);
-  }
-};
-
-const controleEditora = {
-  getEditoras: () => {
-    return [
-      { codEditora: 1, nome: 'Editora A' },
-      { codEditora: 2, nome: 'Editora B' },
-      { codEditora: 3, nome: 'Editora C' }
-    ];
-  }
-};
 
 const LivroDados = () => {
   const opcoes = controleEditora.getEditoras().map(editora => ({
@@ -58,7 +47,7 @@ const LivroDados = () => {
   };
 
   return (
-    <main className='novo-body'>
+    <main>
       <h1>Dados do Livro</h1>
       <form onSubmit={incluir} className='form-body'>
         <div>
