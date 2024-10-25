@@ -40,3 +40,58 @@ a {
     color-scheme: dark;
   }
 }
+
+
+main{
+  margin: 1rem 5rem;
+}
+
+.table{
+  margin-top: 1rem;
+}
+
+.table-header th{
+  background-color: #212429!important;
+  color: white!important;
+  font-weight:400;
+}
+
+
+.table-body tr{
+  background-color: white;
+}
+
+.table-body tr:nth-child(odd){
+  background-color: #F2F2F2!important;
+}
+
+.table-body td{
+  background-color: transparent;
+}
+
+.nav-link{
+  color:white!important;
+}
+h1{
+  justify-self: center!important;
+}
+
+.form-body{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: start;
+  justify-items: start;
+}
+
+.form-body div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form-body div *{
+  width: 100%;
+}

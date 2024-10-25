@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { controleLivro }  from '.';
+import { controleLivro }  from ".";
 
 export default (req: NextApiRequest, res: NextApiResponse) => {
   try {
