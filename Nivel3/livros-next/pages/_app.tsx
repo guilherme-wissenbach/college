@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <div>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>My Next.js App</title> {/* Optional title */}
+          <title>My Next.js App</title> 
         </Head>
         <Component {...pageProps} />
       </div>
