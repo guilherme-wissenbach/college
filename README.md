@@ -4,11 +4,11 @@ Este repositório é destinado aos projetos desenvolvidos durante a faculdade. C
 
 ## Nível 1
 
-Acesse o projeto do **Nível 1** na pasta [Receitas](./Receitas).
+Acesse o projeto do **Nível 1** na pasta [Nivel1](./Receitas).
 
 ## Nível 2
 
-Acesse os projetos do **Nível 2** na pasta [Exemplojs](./Exemplojs).
+Acesse os projetos do **Nível 2** na pasta [Nivel2](./Exemplojs).
 
 ## Nível 3
 
