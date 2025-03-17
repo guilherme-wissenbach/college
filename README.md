@@ -24,15 +24,9 @@ Terceiro Semestre
 
 ## Nível 1
 
-
-
 ## Nível 2
 
-
-
 ## Nível 3
-
-
 
 ## Nível 4
 
