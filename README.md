@@ -24,7 +24,7 @@ Terceiro Semestre
 
 ## Nível 1
 
-Acesse o projeto do **Nível 1** na pasta [Terceiro semestre/Nivel 1](./Terceiro%20semestre/Nivel%201).
+Acesse o projeto do **Nível 1** na pasta [Nivel 1](./Terceiro%20semestre/Nivel%201).
 
 ## Nível 2
 
