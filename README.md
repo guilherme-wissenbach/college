@@ -32,6 +32,8 @@ Acesse o projeto do **Nível 2** na pasta [Nivel 2](./Terceiro%20semestre/Nivel%
 
 ## Nível 3
 
+Acesse o projeto do **Nível 3** na pasta [Nivel 3](./Terceiro%20semestre/Nivel%203).
+
 ## Nível 4
 
 ## Nível 5
