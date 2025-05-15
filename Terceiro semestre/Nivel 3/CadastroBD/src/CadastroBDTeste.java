@@ -1,9 +1,9 @@
-import cadastrobd.model.PessoaFisica;
-import cadastrobd.model.PessoaJuridica;
-import cadastro.model.util.ConectorBD;
-import cadastro.model.util.SequenceManager;
+
 import cadastro.model.PessoaFisicaDAO;
 import cadastro.model.PessoaJuridicaDAO;
+import cadastro.model.util.SequenceManager;
+import cadastrobd.model.PessoaFisica;
+import cadastrobd.model.PessoaJuridica;
 import java.util.List;
 
 /*

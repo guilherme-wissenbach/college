@@ -1,9 +1,9 @@
 package cadastro.model;
 
 import cadastro.model.util.ConectorBD;
+import cadastrobd.model.PessoaJuridica;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import cadastrobd.model.PessoaJuridica;
 import java.util.ArrayList;
 import java.util.List;
 

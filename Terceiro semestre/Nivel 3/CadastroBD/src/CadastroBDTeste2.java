@@ -1,3 +1,4 @@
+
 import cadastro.model.PessoaFisicaDAO;
 import cadastro.model.PessoaJuridicaDAO;
 import cadastro.model.util.SequenceManager;
@@ -379,3 +380,4 @@ public class CadastroBDTeste2 {
      
     }
 }
+
