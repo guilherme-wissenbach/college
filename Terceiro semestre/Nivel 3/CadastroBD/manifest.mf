@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 X-COMMENT: Main-Class will be added automatically by build
 
+=======
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+
+>>>>>>> 0cbe715b5be65d8c775a8c582ae93b422ac1035a
